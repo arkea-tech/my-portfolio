@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "my-portfolio",
     "version": "1.0.9",
     "description": "Portfolio showcasing my experiences and skills",
@@ -10,6 +11,9 @@
     }
 =======
   "name": "portfolio",
+=======
+  "name": "hrpaul-portfolio",
+>>>>>>> 77d440a (added modal)
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,6 +27,7 @@
     "material-icons": "^0.3.1",
     "serve": "^11.3.0",
     "vue": "^2.6.11",
+    "vue-agile": "^1.1.0",
     "vue-parallax-js": "^0.2.3",
     "vueperslides": "^2.8.3"
   },
