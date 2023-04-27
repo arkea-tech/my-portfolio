@@ -38,7 +38,7 @@
                 href="/about"
                 @click.prevent="$emit('scroll', 'about')"
                 :class="{ 'text-light': nightMode }"
-                >{{ $t("tab.about") }}</a
+                >{{ $t('tab.about') }}</a
               >
             </li>
             <li class="nav-item mx-2">
@@ -84,6 +84,11 @@
               ></a>
             </li>
           </ul>
+           <div class="locale-changer">
+            <select v-model="$i18n.locale">
+              <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
+            </select>
+          </div>
         </div>
       </div>
     </nav>
@@ -105,6 +110,7 @@ export default {
     return {
       navbarConfig: info.config.navbar,
       localNightMode: this.nightMode,
+      langs: ['en', 'fr']
     };
   },
   components: {
