@@ -84,11 +84,13 @@
               ></a>
             </li>
           </ul>
-           <div class="locale-changer">
-            <select v-model="$i18n.locale">
-              <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
-            </select>
-          </div>
+          <div class="select ml-4">
+              <v-select v-model="$i18n.locale" :menu-props="{light: false}"
+              :options="langs" :reduce="lang => lang.value" label="label" :clearable="false">
+              </v-select>
+           </div>
+          <!--<div class="locale-changer">-->
+          <!--</div>-->
         </div>
       </div>
     </nav>
@@ -110,11 +112,18 @@ export default {
     return {
       navbarConfig: info.config.navbar,
       localNightMode: this.nightMode,
-      langs: ['en', 'fr']
+      langs: [{
+        value: 'en',
+        label: 'English 🇺🇸'
+        },{
+          value: 'fr',
+          label: 'Français 🇫🇷'
+        }
+      ]
     };
   },
   components: {
-    Logo,
+    Logo
   },
   methods: {
     switchMode() {
@@ -148,5 +157,8 @@ nav {
 .navbar-blur {
   background-color: #ffffff7e;
   backdrop-filter: blur(12px);
+}
+.select {
+  width: 150px;
 }
 </style>

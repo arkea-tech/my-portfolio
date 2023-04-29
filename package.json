@@ -53,6 +53,7 @@
     "vue-parallax-js": "^0.2.3",
     "vue-router": "^3.3.4",
     "vue-scrollto": "^2.18.1",
+    "vue-select": "^3.20.2",
     "vue-selector": "0.0.1",
     "vueperslides": "^2.10.2"
 >>>>>>> bb50ba6 (sandbox commit changes)
