@@ -87,11 +87,8 @@
           <div class="select ml-4">
               <v-select :class="{ 'select-light-mode': !nightMode, 'select-dark-mode': nightMode }"
               v-model="$i18n.locale" :menu-props="{light: false}"
-              :options="langs" :reduce="lang => lang.value" label="label" :clearable="false">
-              </v-select>
-           </div>
-          <!--<div class="locale-changer">-->
-          <!--</div>-->
+              :options="langs" :reduce="lang => lang.value" label="label" :clearable="false" :searchable="false"/>
+          </div>
         </div>
       </div>
     </nav>
