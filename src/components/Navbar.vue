@@ -85,7 +85,8 @@
             </li>
           </ul>
           <div class="select ml-4">
-              <v-select v-model="$i18n.locale" :menu-props="{light: false}"
+              <v-select :class="{ 'select-light-mode': !nightMode, 'select-dark-mode': nightMode }"
+              v-model="$i18n.locale" :menu-props="{light: false}"
               :options="langs" :reduce="lang => lang.value" label="label" :clearable="false">
               </v-select>
            </div>
@@ -159,6 +160,17 @@ nav {
   backdrop-filter: blur(12px);
 }
 .select {
-  width: 150px;
+  width: 160px;
+}
+.select-dark-mode {
+  --vs-controls-color: #d3d2d2;
+  --vs-border-color: #535a5e;
+  --vs-dropdown-bg: #262c30;
+  --vs-selected-color: #d3d2d2;
+  --vs-dropdown-option--active-bg: #535a5e;
+  --vs-search-input-bg:  #262c30;
+}
+.select-light-mode {
+  --vs-dropdown-option--active-bg:  #669db3ff;
 }
 </style>
