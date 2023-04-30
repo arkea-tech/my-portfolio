@@ -52,8 +52,9 @@
             </div>
             <hr />
             <div>
-              <Gallery :images="portfolio.pictures" />
+              <vueVimeoPlayer ref="player" :video-id="videoID" :options="options"></vueVimeoPlayer>
             </div>
+            <br />
           </div>
 
           <div class="text-center pb-3">
@@ -75,12 +76,14 @@
 <script>
 import Carousel from "./Carousel";
 import Gallery from "./Gallery";
+import { vueVimeoPlayer } from 'vue-vimeo-player'
 
 export default {
   name: "Modal",
   components: {
     Carousel,
     Gallery,
+    vueVimeoPlayer
   },
   props: {
     showModal: {
@@ -93,13 +96,23 @@ export default {
       type: Boolean,
     },
   },
+  data() {
+    return {
+      videoID: '84467622',
+      options: {
+        responsive: true,
+        autoplay: false,
+        title: false,
+      }
+    };
+  },
   created() {
     document.getElementsByTagName("body")[0].classList.add("modal-open");
   },
   methods: {
     open(url) {
       window.open(url, "_blank");
-    },
+    }
   },
 };
 </script>
@@ -177,7 +190,6 @@ a:hover {
 
 .modal-body {
   margin: 20px 0;
-  overflow-y: scroll;
   max-height: inherit;
 }
 
