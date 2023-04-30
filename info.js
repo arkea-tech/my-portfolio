@@ -1,3 +1,5 @@
+import i18n from './src/i18n'
+
 let info = {
   name: "Hrishikesh Paul",
   logo_name: "paul",
@@ -19,7 +21,7 @@ let info = {
   },
   education: [
     {
-      name: "Indiana University Bloomington",
+      name: i18n.tc('tab.skills'),
       place: "USA",
       date: "Aug, 2019 - May, 2021",
       degree: "Masters in Computer Science",
@@ -32,7 +34,6 @@ let info = {
         "Algorithms",
         "Computer Vision",
         "Music Data Mining",
-        ,
         "OS"
       ]
     },

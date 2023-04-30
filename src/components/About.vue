@@ -50,10 +50,10 @@ export default {
       type: Boolean,
     },
   },
-  data() {
+  /*data() {
     return {
       education: {
-        title: "education",
+        title:  this.$t('sections.about.education'),
         data: info.education,
       },
       experience: {
@@ -61,7 +61,34 @@ export default {
         data: info.experience,
       },
     };
-  },
+  },*/
+  computed: {
+    education() {
+      return {
+        title: this.$t('sections.about.education.title'),
+        data: [
+          {
+            name: "Epitech",
+            place: "Paris, France",
+            date: this.$t('sections.about.education.university.date'),
+            degree: this.$t('sections.about.education.university.degree'),
+            gpa: "2.9/4.0",
+            description: this.$t('sections.about.education.university.description'),
+            skills: [
+              this.$t('sections.about.education.university.skills.algorithms'),
+              this.$t('sections.about.education.university.skills.web-mobile-development'),
+            ]
+          }
+        ],
+      }
+    },
+    experience() {
+      return {
+        title: "experiences",
+        data: info.experience,
+      }
+    }
+  }
 };
 </script>
 

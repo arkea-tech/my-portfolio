@@ -1,5 +1,24 @@
 {
+	"sections": {
+		"about": {
+			"education": {
+				"title": "education",
+				"university": {
+					"date": "Feb, 2018 - Oct, 2022",
+					"degree": "Master's degree of Digital Innovation, Computer Science",
+					"description": "Epitech offers training over 5 years and delivers the title of Expert in Information Technologies.\n\n\nIts pedagogy is the opposite of traditional teaching, where it works by projects.\nThe student is autonomous and gradually becomes self-taught. he is the master of his time and of his organization at school.\n\nProgramming is covered exclusively.\nThere is no theory and the student learns by doing on given topics and programming languages.",
+					"skills": {
+						"algorithms": "Algorithms",
+						"web-mobile-development": "Web & Mobile development"
+					}
+				}
+			}
+		}
+	},
 	"tab": {
-		"about": "Hello World!"
+		"about": "about",
+		"contact": "contact",
+		"portfolio": "portfolio",
+		"skills": "skills"
 	}
 }

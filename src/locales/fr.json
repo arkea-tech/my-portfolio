@@ -1,5 +1,24 @@
 {
+	"sections": {
+		"about": {
+			"education": {
+				"title": "éducation",
+				"university": {
+					"date": "Février 2018 - Octobre 2022",
+					"degree": "Master Bac+5, Expert en Technologies de l'Information",
+					"description": "Epitech propose une formation en 5 ans et délivre le titre d'Expert en Technologies de l'Information.\n\nSa pédagogie est à l'opposé de l'enseignement traditionnel, où elle fonctionne par projets.\nL'étudiant est autonome et devient progressivement autodidacte. il est maître de son temps et de son organisation à l'école.\n\nLa programmation est abordée exclusivement.\nIl n'y a aucune théorie et l'élève apprend en pratiquant sur des sujets donnés et des langages de programmation.",
+					"skills": {
+						"algorithms": "Algorithmes",
+						"web-mobile-development": "Développement Web & Mobile"
+					}
+				}
+			}
+		}
+	},
 	"tab": {
-		"about": "Bonjour le monde!"
+		"about": "à propos",
+		"contact": "contact",
+		"portfolio": "portfolio",
+		"skills": "compétences"
 	}
 }
