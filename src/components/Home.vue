@@ -1,7 +1,7 @@
 <template>
   <div
     :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"
-    class="pt-5 p-st"
+    class="pt-4 pb-5 p-st"
   >
     <div
       class="container"
@@ -113,8 +113,7 @@ export default {
 
 img {
   max-width: 300px;
-  margin-top: 60px;
-  transform: rotateY(180deg);
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 580px) {

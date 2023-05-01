@@ -1,7 +1,7 @@
 let info = {
   name: "Gabriel Pironneau",
   logo_name: "gabriel",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  flat_picture: require("./src/assets/portrait.jpg"),
   config: {
     use_cookies: true,
     navbar: {
