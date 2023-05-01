@@ -9,9 +9,48 @@
 					"description": "Epitech propose une formation en 5 ans et délivre le titre d'Expert en Technologies de l'Information.\n\nSa pédagogie est à l'opposé de l'enseignement traditionnel, où elle fonctionne par projets.\nL'étudiant est autonome et devient progressivement autodidacte. il est maître de son temps et de son organisation à l'école.\n\nLa programmation est abordée exclusivement.\nIl n'y a aucune théorie et l'élève apprend en pratiquant sur des sujets donnés et des langages de programmation.",
 					"skills": {
 						"algorithms": "Algorithmes",
-						"web-mobile-development": "Développement Web & Mobile"
+						"web_mobile_development": "Développement Web & Mobile"
 					}
 				}
+			},
+			"experiences": {
+				"afd_tech": {
+					"date": "Septembre 2021 - Février 2022",
+					"description": "Stage à temps partiel 3j/semaine dans le cadre de ma scolarité à Epitech pour un client interne rattaché à l'équipe marketing.\n\nDéveloppement d'une application mobile de planification et organisation de processus pour aider l'entreprise à gérer différents projets, fichiers, actualités et clients en même temps.",
+					"position": "Développeur Fullstack Mobile"
+				},
+				"beconbe": {
+					"date": "Avril 2021 - Juin 2021",
+					"deployment": "Déploiement",
+					"description": "Freelance en tant que Développeur Web. Création d'un site vitrine from scratch via Wordpress pour l'entreprise \"BECONBE\" en Corée du Sud.",
+					"place": "Corée du Sud Séoul Yongsan-gu Séoul",
+					"position": "Développeur WordPress"
+				},
+				"capgemini": {
+					"date": "Avril 2022 - Février 2022",
+					"description": "En lien avec le programme Artemis, l'objectif de ma mission était de développer une plateforme web d'analyse et d'étude de graphes pour le Ministère des Armées.\n\nCette solution permet d'identifier et de retrouver différentes sources d'informations de manière optimisé.",
+					"position": "Développeur Fullstack Web"
+				},
+				"cnrs": {
+					"date": "Janvier 2023 - février 2023",
+					"description": "Reprise du développement d'une application web de sensibilisation à la consommation d'énergie.\n\nL'application web propose à l'utilisateur via 3 modules de mieux comprendre sa consommation d'énergie au quotidien.\nIl peut visualiser en détail ses consommations électriques, a la possibilité d'entrer ses consommations et peut accéder à un histogramme de comparaison des données avec un autre ménage similaire.",
+					"position": "Développeur Fullstack Vue.js/Nodes.js"
+				},
+				"radisson_blu": {
+					"date": "Novembre 2018 - Décembre 2018",
+					"description": "Stagiaire en tant qu'Assistant Administrateur Systèmes et Réseaux pour le début de ma 2ème année à Epitech.\nMise en place et analyse d'un parc informatique, support IT et automatisation des tâches via des outils : GPO, Active Directory, Protocoles Réseau (TCP, FTP, IPV4 et IPV6)",
+					"position": "Assistant Administrateur Système & Réseau"
+				},
+				"wellup": {
+					"date": "Avril 2023 - Avril 2023",
+					"description": "Correction d'un bug visuelle sur plateforme wellup.fr.\nLe site propose une solution de prise de rendez-vous en ligne avec un thérapeute.",
+					"position": "Développeur WordPress"
+				}
+			}
+		},
+		"portfolio": {
+			"personal_dashboard": {
+				"description": "Music Sheet Recognizer (MSR) met en évidence le traitement et la reconnaissance d'image de base. Comme la reconnaissance optique de caractères"
 			}
 		}
 	},

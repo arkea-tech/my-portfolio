@@ -93,9 +93,89 @@ export default {
       type: Boolean,
     },
   },
+  computed: {
+    all_info() {
+      return  [
+        {
+          name: "Sheet Recognizer",
+          pictures: [
+            {
+              img: require("../assets/portfolio/msr/one.png")
+            },
+            {
+              img: require("../assets/portfolio/msr/two.png")
+            },
+            {
+              img: require("../assets/portfolio/msr/three.png")
+            },
+            {
+              img: require("../assets/portfolio/msr/four.png")
+            }
+          ],
+          technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
+          category: "Algorithm",
+          date: "Jan, 2020 - Mar, 2020",
+          github:
+        "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
+          visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
+          description: this.$t('sections.portfolio.personal_dashboard.description')
+        },
+        {
+          name: "NoQ Job Portal",
+          pictures: [
+            {
+              img: require("../assets/portfolio/noq/logo.png")
+            },
+            {
+              img: require("../assets/portfolio/noq/one.png")
+            },
+            {
+              img: require("../assets/portfolio/noq/two.png")
+            },
+            {
+              img: require("../assets/portfolio/noq/three.png")
+            },
+            {
+              img: require("../assets/portfolio/noq/four.png")
+            }
+          ],
+          technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
+          category: "Website",
+          date: "Sep, 2019 - Dec  , 2019",
+          github: "https://github.com/hrishikeshpaul/noq",
+          visit: "https://noq-client.herokuapp.com/",
+          description:
+        "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
+        },
+        {
+          name: "POST",
+          pictures: [
+            {
+              img: require("../assets/portfolio/post/one.png")
+            },
+            {
+              img: require("../assets/portfolio/post/two.png")
+            }
+          ],
+          technologies: [
+            "Markov Models",
+            "Python",
+            "Artificial Intelligence",
+            "Vue",
+            "Heroku"
+          ],
+          category: "Algorithm",
+          github: "https://github.com/hrishikeshpaul/pos-tagger",
+          date: "Oct, 2019 - Nov, 2019",
+          visit: "https://post-client.herokuapp.com/",
+          description:
+        "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
+        }
+      ]
+    }
+  },
   data() {
     return {
-      all_info: info.portfolio,
       portfolio_info: [],
       showModal: false,
       modal_info: {},
@@ -121,6 +201,13 @@ export default {
         this.portfolio_info.push(this.all_info[i]);
       }
     },
+    '$i18n.locale': function(newVal, oldVal) {
+      this.portfolio_info = [];
+
+      for (var i = 0; i < this.number; i++) {
+        this.portfolio_info.push(this.all_info[i]);
+      }
+    }
   },
   methods: {
     next() {

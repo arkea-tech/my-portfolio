@@ -1,8 +1,6 @@
-import i18n from './src/i18n'
-
 let info = {
-  name: "Hrishikesh Paul",
-  logo_name: "paul",
+  name: "Gabriel Pironneau",
+  logo_name: "gabriel",
   flat_picture: require("./src/assets/potrait.jpg"),
   config: {
     use_cookies: true,
@@ -19,43 +17,6 @@ let info = {
     resume:
       "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
   },
-  education: [
-    {
-      name: i18n.tc('tab.skills'),
-      place: "USA",
-      date: "Aug, 2019 - May, 2021",
-      degree: "Masters in Computer Science",
-      gpa: "3.7/4.0",
-      description:
-        "Currently pursuing my Master's in Computer Science, while specializing in the field of Artificial Intelligence and Machine Learning.",
-      skills: [
-        "Artificial Intelligence",
-        "Software Engineering",
-        "Algorithms",
-        "Computer Vision",
-        "Music Data Mining",
-        "OS"
-      ]
-    },
-    {
-      name: "Manipal Institute of Technology",
-      place: "India",
-      date: "Aug, 2015 - July, 2019",
-      degree: "Bachelors in Computer and Communication",
-      gpa: "8.0/10.0",
-      description:
-        "Graduated from Manipal Institute of Technology, Manipal with a bachelors degree in Computer and Communications Engineering.",
-      skills: [
-        "AI",
-        "Neural Netwroks",
-        "Data Mining",
-        "Computer Vision",
-        "Pattern Recognition",
-        "HCI",
-        "Software Engineering"
-      ]
-    }
-  ],
   experience: [
     {
       name: "Cyberinfrastructure for Network Science Center",
@@ -92,6 +53,15 @@ let info = {
       description:
         "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
       skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
+    },
+    {
+      name: "Viteos Capital Market Services s",
+      place: "Mumbai, India",
+      date: "May, 2016 - July, 2016",
+      position: "Software Developer",
+      description:
+        "Evaluated technologies, and building proof of concept/prototype solutions for trade processing and mathematical model based evaluations, while working in the software development team.",
+      skills: ["C#", "C++", "Visual Studio"]
     },
     {
       name: "Viteos Capital Market Services s",

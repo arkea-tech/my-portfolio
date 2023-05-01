@@ -6,12 +6,51 @@
 				"university": {
 					"date": "Feb, 2018 - Oct, 2022",
 					"degree": "Master's degree of Digital Innovation, Computer Science",
-					"description": "Epitech offers training over 5 years and delivers the title of Expert in Information Technologies.\n\n\nIts pedagogy is the opposite of traditional teaching, where it works by projects.\nThe student is autonomous and gradually becomes self-taught. he is the master of his time and of his organization at school.\n\nProgramming is covered exclusively.\nThere is no theory and the student learns by doing on given topics and programming languages.",
+					"description": "Epitech offers training over 5 years and delivers the title of Expert in Information Technologies.\n\nIts pedagogy is the opposite of traditional teaching, where it works by projects.\nThe student is autonomous and gradually becomes self-taught. he is the master of his time and of his organization at school.\n\nProgramming is covered exclusively.\nThere is no theory and the student learns by doing on given topics and programming languages.",
 					"skills": {
 						"algorithms": "Algorithms",
-						"web-mobile-development": "Web & Mobile development"
+						"web_mobile_development": "Web & Mobile development"
 					}
 				}
+			},
+			"experiences": {
+				"afd_tech": {
+					"date": "Sep, 2021 - Feb, 2022",
+					"description": "Part-time internship in Full Stack Mobile Developement with React Native and Node.js (Express.js, Sequelize, PostgreSQL & MAMP).\n\nI built a mobile app planner & organizer tool (Android & iOS) to help the company handling different tasks, projects, files and clients at the same time.",
+					"position": "Fullstack Mobile Developer"
+				},
+				"beconbe": {
+					"date": "Apr, 2021 - June, 2021",
+					"deployment": "Deployment",
+					"description": "Freelance as a Web Developer in charge of creating the company's website showcase with Wordpress from scratch.",
+					"place": "South Korea Seoul Yongsan-gu Seoul",
+					"position": "WordPress Developer"
+				},
+				"capgemini": {
+					"date": "Apr, 2022 - Feb, 2022",
+					"description": "Permanent position as a Fullstack Web Developer in React.js & Java.\n\nAs part of the Artemis program, the \"Ministry of Armed Forces\" needed a platform to analyse and manipulate graphs.\nThanks to that solution, it's possible to identify and find the root of various sources of informations.",
+					"position": "Fullstack Web Developer"
+				},
+				"cnrs": {
+					"date": "Jan, 2023 - Feb, 2023",
+					"description": "Resumption of the development of a web app that raise awareness of daily household consumption.\n\nThe web application help the user to better understand his daily energy consumption.\nHe can view his electricity consumption in detail, can enter his consumption manually and can access an histogram that compare data with another similar household.",
+					"position": "Fullstack Web Developer Vue.js/Node.js"
+				},
+				"radisson_blu": {
+					"date": "Nov, 2018 - Dec, 2018",
+					"description": "Intern as a Systems and Network Assistant Manager for the beginning of my 2nd year at Epitech.\nWhich brought me to set up and analyse a computer park, find solutions to IT users daily problems (IT support) and automate tasks using: GPO, Active Directory, Network Protocols (TCP, FTP, IPV4 and IPV6)",
+					"position": "System & Network Assistant Manager"
+				},
+				"wellup": {
+					"date": "Apr, 2023 - Apr, 2023",
+					"description": "Fixed a visual bug on the wellup.fr platform.\nThe site offers an online appointment booking solution with a therapist.",
+					"position": "WordPress Developer"
+				}
+			}
+		},
+		"portfolio": {
+			"personal_dashboard": {
+				"description": "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition"
 			}
 		}
 	},

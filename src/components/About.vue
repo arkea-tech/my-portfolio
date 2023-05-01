@@ -50,18 +50,6 @@ export default {
       type: Boolean,
     },
   },
-  /*data() {
-    return {
-      education: {
-        title:  this.$t('sections.about.education'),
-        data: info.education,
-      },
-      experience: {
-        title: "experiences",
-        data: info.experience,
-      },
-    };
-  },*/
   computed: {
     education() {
       return {
@@ -76,7 +64,7 @@ export default {
             description: this.$t('sections.about.education.university.description'),
             skills: [
               this.$t('sections.about.education.university.skills.algorithms'),
-              this.$t('sections.about.education.university.skills.web-mobile-development'),
+              this.$t('sections.about.education.university.skills.web_mobile_development'),
             ]
           }
         ],
@@ -85,7 +73,60 @@ export default {
     experience() {
       return {
         title: "experiences",
-        data: info.experience,
+        data: [
+          {
+            name: "Cyberinfrastructure for Network Science Center",
+            place: "Bloomington, Indiana",
+            date: "Jun, 2020 - Present",
+            position: "Research Assistant; Full Stack Developer",
+            description:
+        "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
+            skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
+          },
+          {
+            name: "Skylark Drones",
+            place: "Bangalore, India",
+            date: "Jan, 2019 - Jun, 2021",
+            position: "Full Stack Web Developer",
+            description:
+        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
+            skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
+          },
+          {
+            name: "Hridayam Soft Solutions",
+            place: "Mumbai, India",
+            date: "May, 2018 - Jun, 2018",
+            position: "Computer Vision Engineer",
+            description:
+        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
+            skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
+          },
+          {
+            name: "Elementail Labs",
+            place: "Mumbai, India",
+            date: "May, 2017 - July, 2017",
+            position: "Full Stack Web Developer",
+            description:
+        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
+            skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
+          },
+          {
+            name: "BECONBE",
+            place: this.$t('sections.about.experiences.beconbe.place'),
+            date: this.$t('sections.about.experiences.beconbe.date'),
+            position: this.$t('sections.about.experiences.beconbe.position'),
+            description: this.$t('sections.about.experiences.beconbe.description'),
+            skills: ["Wordpress", "Webdesign", "User Interface Design", "User Experience Design", "Testing", this.$t('sections.about.experiences.beconbe.deployment')]
+          },
+          {
+            name: "Radisson Blu",
+            place: "Marne-la-Vallée, Île-de-France, France",
+            date: this.$t('sections.about.experiences.radisson_blu.date'),
+            position: this.$t('sections.about.experiences.radisson_blu.position'),
+            description: this.$t('sections.about.experiences.radisson_blu.description'),
+            skills: ["Active Directory", "TCP/FTP/IPV4 & IPV6", "GPO", "Windows Server", "IT Support"]
+          }
+        ]
       }
     }
   }
