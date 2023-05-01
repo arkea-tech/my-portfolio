@@ -98,6 +98,7 @@ export default {
       return  [
         {
           name: "Sheet Recognizer",
+          videoID: '773098729',
           pictures: [
             {
               img: require("../assets/portfolio/msr/one.png")
@@ -122,6 +123,7 @@ export default {
         },
         {
           name: "NoQ Job Portal",
+          videoID: '773087172',
           pictures: [
             {
               img: require("../assets/portfolio/noq/logo.png")
@@ -149,6 +151,7 @@ export default {
         },
         {
           name: "POST",
+          videoID: '818427347',
           pictures: [
             {
               img: require("../assets/portfolio/post/one.png")

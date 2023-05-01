@@ -50,11 +50,10 @@
             <div style="text-align: justify;">
               <span v-html="portfolio.description"></span>
             </div>
-            <hr />
+            <hr :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"/>
             <div>
-              <vueVimeoPlayer ref="player" :video-id="videoID" :options="options"></vueVimeoPlayer>
+              <vueVimeoPlayer ref="player" :video-id="portfolio.videoID" :options="options"></vueVimeoPlayer>
             </div>
-            <br />
           </div>
 
           <div class="text-center pb-3">
@@ -98,7 +97,6 @@ export default {
   },
   data() {
     return {
-      videoID: '84467622',
       options: {
         responsive: true,
         autoplay: false,
