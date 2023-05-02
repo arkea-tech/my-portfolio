@@ -30,7 +30,7 @@
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
           </div>
-          <div class="modal-body my-0 pb-0 px-4 pt-0">
+          <div class="modal-body my-0 pb-3 px-4 pt-0">
             <div
               class="mb-2 date"
               :class="{ 'text-light': nightMode, pbgray: nightMode }"
@@ -188,6 +188,7 @@ a:hover {
 
 .modal-body {
   margin: 20px 0;
+  overflow-y: scroll;
   max-height: inherit;
 }
 
