@@ -1,4 +1,15 @@
 {
+	"introduction": {
+		"description": "Développeur Full Stack en freelance, je propose un service de qualité tout en répondant à des problématiques variées.\n<br><br>\nÀ travers mon parcours professionnel et à Epitech (diplômé master en technologies de l'information), j'ai eu l'opportunité de travailler sur des projets de création d'applications web, d'outils de gestion, plateforme d'analyse de graphe et conception de sites vitrines.\n<br><br>\nLors de mon temps libre, je prends plaisir à travailler sur divers projets personnel et je m'informe régulièrement des dernières tendances technologiques.\nMais sans pour autant être un geek, j'adore aussi voyager, jouer de la guitare et faire du skateboard.\n\n",
+		"title": "Bonjour!"
+	},
+	"links": {
+		"resume": "CV"
+	},
+	"mode": {
+		"dark": "Mode Sombre",
+		"light": "Mode Lumière"
+	},
 	"sections": {
 		"about": {
 			"education": {
@@ -46,18 +57,65 @@
 					"description": "Correction d'un bug visuelle sur plateforme wellup.fr.\nLe site propose une solution de prise de rendez-vous en ligne avec un thérapeute.",
 					"position": "Développeur WordPress"
 				}
-			}
+			},
+			"title": "à propos de moi."
+		},
+		"contact": {
+			"button_send": "envoyer",
+			"name": "nom"
 		},
 		"portfolio": {
+			"beconbe": {
+				"category": "",
+				"date": "",
+				"description": ""
+			},
+			"button_close": "fermer",
+			"button_read_more": "lire plus",
+			"button_show_more": "montrer plus",
+			"button_visit_website": "lien du site",
 			"personal_dashboard": {
+				"category": "Application Web",
+				"date": "Mars 2020 - Janvier 2021",
 				"description": "Music Sheet Recognizer (MSR) met en évidence le traitement et la reconnaissance d'image de base. Comme la reconnaissance optique de caractères"
+			},
+			"smart_meter": {
+				"category": "",
+				"date": "",
+				"description": ""
+			},
+			"wellup": {
+				"category": "",
+				"date": "",
+				"description": ""
 			}
+		},
+		"recommendations": {
+			"capgemini": {
+				"title": "En tant que responsable technique, j'ai pu travailler avec Gabriel dans le cadre de sa mission chez Capgemini. C'est un bon développeur, sérieux et ponctuel. Son niveau technique, son investissement et sa rapidité d'intégration à un projet complexe et sa connaissance des bonnes pratiques (clean code, documentation) ont été très appréciés."
+			},
+			"cnrs": {
+				"title": "Notre expérience avec Gabriel a été très satisfaisante. Il s'est très bien approprié le projet tout en restant à l'écoute et en répondant à nos besoins dans les temps. Au plaisir de pouvoir collaborer à nouveau avec lui."
+			},
+			"epitech": {
+				"title": "Gabriel est une personne sérieuse qui se donne à 100% pour réussir ses projets. C'est un développeur d'exception qui maîtrise ce qu'il fait."
+			},
+			"title": "recommandations",
+			"wellup": {
+				"title": "Mission réalisée efficacement"
+			}
+		},
+		"skills": {
+			"databases": "Bases de données",
+			"languages": "langages",
+			"librairies": "bibliothèques",
+			"operating_systems_and_tools": "systèmes d'exploitation et outils",
+			"title": "compétences.",
+			"web_technologies": "technologies web"
 		}
 	},
 	"tab": {
 		"about": "à propos",
-		"contact": "contact",
-		"portfolio": "portfolio",
 		"skills": "compétences"
 	}
 }

@@ -17,7 +17,7 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
+            >{{ $t('introduction.title') }}</span
           >
           <div>
             <p v-html="description"></p>
@@ -47,7 +47,7 @@
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
-              v-tooltip.bottom="'Resume'"
+              v-tooltip.bottom="this.$t('links.resume')"
             >
               <i class="fa fa-file"></i>
             </button>
@@ -73,10 +73,14 @@ export default {
       type: Boolean,
     },
   },
+  computed: {
+    description() {
+      return this.$t('introduction.description')
+    }
+  },
   data() {
     return {
       picture: info.flat_picture,
-      description: info.description,
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,

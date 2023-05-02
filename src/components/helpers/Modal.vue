@@ -52,7 +52,8 @@
             </div>
             <hr :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"/>
             <div>
-              <vueVimeoPlayer ref="player" :video-id="portfolio.videoID" :options="options"></vueVimeoPlayer>
+              <RingLoader id="loader" :loading="!playerReady" :color="loaderColor"/>
+              <vueVimeoPlayer ref="player" :video-id="portfolio.videoID" :options="options" @ready="onReady"></vueVimeoPlayer>
             </div>
           </div>
 
@@ -64,7 +65,7 @@
             <button class="btn w-25 mr-3" @click="open(portfolio.github)">
               github
             </button>
-            <button class="btn w-25" @click="$emit('close')">close</button>
+            <button class="btn w-25" @click="$emit('close')"> {{ $t('sections.portfolio.button_close') }}</button>
           </div>
         </div>
       </div>
@@ -76,13 +77,15 @@
 import Carousel from "./Carousel";
 import Gallery from "./Gallery";
 import { vueVimeoPlayer } from 'vue-vimeo-player'
+import RingLoader from 'vue-spinner/src/RingLoader.vue'
 
 export default {
   name: "Modal",
   components: {
     Carousel,
     Gallery,
-    vueVimeoPlayer
+    vueVimeoPlayer,
+    RingLoader
   },
   props: {
     showModal: {
@@ -100,8 +103,10 @@ export default {
       options: {
         responsive: true,
         autoplay: false,
-        title: false,
-      }
+        title: false
+      },
+      loaderColor: "#669db3ff",
+      playerReady: false
     };
   },
   created() {
@@ -110,8 +115,11 @@ export default {
   methods: {
     open(url) {
       window.open(url, "_blank");
+    },
+    onReady() {
+      this.playerReady = true
     }
-  },
+  }
 };
 </script>
 
@@ -127,6 +135,11 @@ a {
   cursor: pointer;
 }
 
+#loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 a:hover {
   transition: all 0.2s;
   color: gray;

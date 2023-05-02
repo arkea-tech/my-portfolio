@@ -1,4 +1,15 @@
 {
+	"introduction": {
+		"description": "Full Stack Developer in freelance and thriving for new challenges, I offer high quality services.\n<br><br>\nThrough my professional career and at Epitech (master's degree in information technology), I had the opportunity to work on projects concerning the creation of web applications, management tools, graph analysis platform and design of showcase sites.\n<br><br>\nDuring my free time, I enjoy working on various personal projects and I regularly stay up to date to various technological trends.\nI also love to travel, play the guitar and skate.",
+		"title": "Hello!"
+	},
+	"links": {
+		"resume": "Resume"
+	},
+	"mode": {
+		"dark": "Dark Mode",
+		"light": "Light Mode"
+	},
 	"sections": {
 		"about": {
 			"education": {
@@ -46,18 +57,65 @@
 					"description": "Fixed a visual bug on the wellup.fr platform.\nThe site offers an online appointment booking solution with a therapist.",
 					"position": "WordPress Developer"
 				}
-			}
+			},
+			"title": "about me."
+		},
+		"contact": {
+			"button_send": "send",
+			"name": "name"
 		},
 		"portfolio": {
+			"beconbe": {
+				"category": "",
+				"date": "",
+				"description": ""
+			},
+			"button_close": "close",
+			"button_read_more": "read more",
+			"button_show_more": "show more",
+			"button_visit_website": "visit website",
 			"personal_dashboard": {
+				"category": "Web App",
+				"date": "Mars, 2020 - Jan, 2021",
 				"description": "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition"
+			},
+			"smart_meter": {
+				"category": "",
+				"date": "",
+				"description": ""
+			},
+			"wellup": {
+				"category": "",
+				"date": "",
+				"description": ""
 			}
+		},
+		"recommendations": {
+			"capgemini": {
+				"title": "As technical manager, I was able to work with Gabriel as part of his mission at Capgemini. He is a good developer, serious and punctual. His technical level, his investment and his speed of integration into a complex project and his knowledge of best practices (clean code, documentation) were greatly appreciated."
+			},
+			"cnrs": {
+				"title": "Our experience with Gabriel was very satisfying. He took ownership of the project very well while remaining attentive and responding to our needs on time. Looking forward to working with him again."
+			},
+			"epitech": {
+				"title": "Gabriel is a brilliant person who gives 100% of himself to succeed in his projects. He is an exceptional developer who masters what he does."
+			},
+			"title": "recommendations",
+			"wellup": {
+				"title": "Mission carried out efficiently"
+			}
+		},
+		"skills": {
+			"databases": "databases",
+			"languages": "languages",
+			"librairies": "librairies",
+			"operating_systems_and_tools": "operating systems and tools",
+			"title": "skills.",
+			"web_technologies": "web technologies"
 		}
 	},
 	"tab": {
 		"about": "about",
-		"contact": "contact",
-		"portfolio": "portfolio",
 		"skills": "skills"
 	}
 }

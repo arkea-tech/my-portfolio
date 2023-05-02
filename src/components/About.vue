@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >about me.</span
+          >{{ $t('sections.about.title') }}</span
         >
       </div>
       <hr
@@ -75,40 +75,38 @@ export default {
         title: "experiences",
         data: [
           {
-            name: "Cyberinfrastructure for Network Science Center",
-            place: "Bloomington, Indiana",
-            date: "Jun, 2020 - Present",
-            position: "Research Assistant; Full Stack Developer",
-            description:
-        "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
-            skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
+            name: "Well'up",
+            place: "Paris, France",
+            date: this.$t('sections.about.experiences.wellup.date'),
+            position: this.$t('sections.about.experiences.wellup.position'),
+            description: this.$t('sections.about.experiences.wellup.description'),
+            skills: ["Wordpress", "PHP", "FileZilla", "Elementor"]
           },
           {
-            name: "Skylark Drones",
-            place: "Bangalore, India",
-            date: "Jan, 2019 - Jun, 2021",
-            position: "Full Stack Web Developer",
-            description:
-        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
-            skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
+            name: "CNRS",
+            place: "Nancy, France",
+            date: this.$t('sections.about.experiences.cnrs.date'),
+            position: this.$t('sections.about.experiences.cnrs.position'),
+            description: this.$t('sections.about.experiences.cnrs.description'),
+            skills: ["Vue.js", "Typescript", "Node.js", "Express.js", "PostgreSQL", "Sequelize", "amCharts", "Quasar", "Vite", "Axios"]
           },
           {
-            name: "Hridayam Soft Solutions",
-            place: "Mumbai, India",
-            date: "May, 2018 - Jun, 2018",
-            position: "Computer Vision Engineer",
-            description:
-        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
-            skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
+            name: "Capgemini Technology Services - France",
+            place: "Issy-les-Moulineaux, France",
+            date: this.$t('sections.about.experiences.capgemini.date'),
+            position: this.$t('sections.about.experiences.capgemini.position'),
+            description: this.$t('sections.about.experiences.capgemini.description'),
+            skills: ["React.js", "Typescript", "Redux", "Material UI", "Java",
+                     "Spring Boot", "GraphQL", "DQL", "Ratel",
+                     "OpenSearch", "Git", "Gitlab", "Gitlab CI/CD", "Docker", "Kubernetes", "AWS"]
           },
           {
-            name: "Elementail Labs",
-            place: "Mumbai, India",
-            date: "May, 2017 - July, 2017",
-            position: "Full Stack Web Developer",
-            description:
-        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
-            skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
+            name: "AFD Tech",
+            place: "Paris, France",
+            date: this.$t('sections.about.experiences.afd_tech.date'),
+            position: this.$t('sections.about.experiences.afd_tech.position'),
+            description: this.$t('sections.about.experiences.afd_tech.description'),
+            skills: ["React Native", "Node.js", "Express.js", "PostgreSQL", "Sequelize", "Visual Studio Code", "Github", "Git"]
           },
           {
             name: "BECONBE",

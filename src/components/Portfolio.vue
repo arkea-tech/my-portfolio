@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="text-center py-3" v-if="showBtn !== 'show less'">
-          <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
+          <button class="btn" @click.prevent="showMore">{{ $t('sections.portfolio.button_show_more') }}</button>
         </div>
       </div>
 
@@ -97,28 +97,18 @@ export default {
     all_info() {
       return  [
         {
-          name: "Sheet Recognizer",
+          name: "Personal Dashboard",
           videoID: '773098729',
           pictures: [
             {
               img: require("../assets/portfolio/msr/one.png")
-            },
-            {
-              img: require("../assets/portfolio/msr/two.png")
-            },
-            {
-              img: require("../assets/portfolio/msr/three.png")
-            },
-            {
-              img: require("../assets/portfolio/msr/four.png")
             }
           ],
           technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
-          category: "Algorithm",
-          date: "Jan, 2020 - Mar, 2020",
+          category: this.$t('sections.portfolio.personal_dashboard.category'),
+          date: this.$t('sections.portfolio.personal_dashboard.date'),
           github:
         "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
-          visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
           description: this.$t('sections.portfolio.personal_dashboard.description')
         },
         {
@@ -173,7 +163,52 @@ export default {
           visit: "https://post-client.herokuapp.com/",
           description:
         "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
-        }
+        },
+        {
+          name: "Sentiment Analyzer",
+          pictures: [
+            {
+              img: require("../assets/portfolio/smit/one.png")
+            },
+            {
+              img: require("../assets/portfolio/smit/two.png")
+            },
+            {
+              img: require("../assets/portfolio/smit/three.png")
+            },
+            {
+              img: require("../assets/portfolio/smit/four.png")
+            }
+          ],
+          technologies: ["LSTM", "Keras", "Angular", "Tweepy", "Heroku", "Python"],
+          category: "Alogrithm",
+          date: "Feb, 2018 - Apr  , 2018",
+          github: "https://github.com/hrishikeshpaul/sih",
+          visit: "https://angel.co/projects/1009777-sentiment-analysis",
+          description:
+        "Developing this for the final round of Smart India Hackathon 2018, the web application is a platform for showcasing the sentiment of the tweets of the people in the Telangana region in India on policy satisfaction, services and problem definitions. The minimal UI design consists of different bins, that have their respective tweets, all scraped from twitter. There is also a simple graphical representation denoting the sentiment of the tweets."
+        },
+        {
+          name: "Clumpr",
+          pictures: [
+            {
+              img: require("../assets/portfolio/clumpr/logo.png")
+            },
+            {
+              img: require("../assets/portfolio/clumpr/one.png")
+            },
+            {
+              img: require("../assets/portfolio/clumpr/two.png")
+            }
+          ],
+          technologies: ["Node", "Angular", "Express", "MySQL", "Facebook API"],
+          category: "Web App",
+          github: "https://github.com/hrishikeshpaul/clumpr",
+          date: "Sep, 2017 - Nov, 2017",
+          visit: "https://github.com/hrishikeshpaul/clumpr",
+          description:
+        'Clumpr is an online social event planning assistant that - using information about similar events happening in similar locations around the same time, friends who frequently attend the same events, and mutual friends - helps users to collaborate, combine, and attend events together, effectively "clumping" people and activities in a way that makes intuitive sense.'
+        },
       ]
     }
   },

@@ -43,7 +43,7 @@
             class="btn-sm btn btn-outline-secondary no-outline"
             @click.prevent="showModal"
           >
-            read more
+            {{ $t('sections.portfolio.button_read_more') }}
           </button>
           <button
             href="#"
@@ -51,7 +51,7 @@
             v-if="portfolio.visit"
             @click.prevent="open(portfolio.visit)"
           >
-            visit website
+            {{ $t('sections.portfolio.button_visit_website') }}
           </button>
         </div>
       </div>

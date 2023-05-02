@@ -36,7 +36,7 @@
             type="text"
             name="user_name"
             v-model="name"
-            placeholder="name"
+            :placeholder="this.$t('sections.contact.name')"
             class="pinput"
             :class="{
               pgray: !nightMode,
@@ -97,7 +97,7 @@
           data-aos-duration="1000"
           data-aos-offset="50"
         >
-          Send
+          {{ $t('sections.contact.button_send') }}
         </button>
       </div>
 

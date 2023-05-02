@@ -56,7 +56,7 @@
                 href="/portfolio"
                 @click.prevent="$emit('scroll', 'portfolio')"
                 :class="{ 'text-light': nightMode }"
-                >{{ $t('tab.portfolio') }}</a
+                >portfolio</a
               >
             </li>
             <li class="nav-item mx-2">
@@ -65,7 +65,7 @@
                 href="/contact"
                 @click.prevent="$emit('scroll', 'contact')"
                 :class="{ 'text-light': nightMode }"
-                >{{ $t('tab.contact') }}</a
+                >contact</a
               >
             </li>
             <li class="nav-item ml-2">
@@ -79,7 +79,7 @@
                     'fas fa-moon': nightMode,
                     'far fa-moon': !nightMode,
                   }"
-                  v-tooltip.bottom="nightMode ? 'Light Mode' : 'Night Mode'"
+                  v-tooltip.bottom="nightMode ? this.$t('mode.light') : this.$t('mode.dark')"
                 ></i
               ></a>
             </li>

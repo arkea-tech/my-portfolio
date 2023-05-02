@@ -10,7 +10,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >skills.</span
+          >{{ $t('sections.skills.title') }}</span
         >
       </div>
       <hr
@@ -33,7 +33,7 @@
           data-aos-once="true"
         >
           <div class="bg-div"><i :class="skill.icon"></i></div>
-          <div class="title2 pt-2">{{ skill.title }}</div>
+          <div class="title2 pt-2">{{ titles[idx] }}</div>
           <hr
             width="50%"
             :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
@@ -54,6 +54,13 @@ export default {
     nightMode: {
       type: Boolean,
     },
+  },
+  computed: {
+    titles () {
+      return [this.$t('sections.skills.languages'), this.$t('sections.skills.web_technologies'), this.$t('sections.skills.librairies'),
+              this.$t('sections.skills.databases'), this.$t('sections.skills.operating_systems_and_tools'),
+              "design"]
+    }
   },
   data() {
     return {
