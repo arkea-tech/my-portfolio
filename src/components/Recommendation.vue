@@ -66,30 +66,30 @@ export default {
         {
           title: this.$t('sections.recommendations.capgemini.title'),
           author: "Gautier Folgoas",
-          position: "Technical Director",
+          position: this.$t('sections.recommendations.capgemini.position'),
           company: "Capgemini",
           location: "Issy-les-Moulineaux, France"
         },
         {
           title: this.$t('sections.recommendations.cnrs.title'),
           author: "Lorris Tabbone",
-          position: "Researcher",
-          company: "Elemential Labs",
-          location: "Mumbai"
+          position: this.$t('sections.recommendations.cnrs.position'),
+          company: "CNRS",
+          location: "Nancy, France"
         },
         {
           title: this.$t('sections.recommendations.epitech.title'),
-          author: "Tristan",
-          position: "Director",
-          company: "Hridayam Soft Solution",
-          location: "Mumbai"
+          author: "Tristan Belhadj",
+          position: this.$t('sections.recommendations.epitech.position'),
+          company: "Epitech",
+          location: "Paris, France"
         },
         {
           title: this.$t('sections.recommendations.wellup.title'),
-          author: "Mrinal Pai",
-          position: "Co-Founder & Director",
-          company: "Skylark Drones",
-          location: "Bangalore"
+          author: "Alexandre Martin",
+          position: this.$t('sections.recommendations.wellup.position'),
+          company: "Well'up",
+          location: "Paris, France"
         }
       ]
     }

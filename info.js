@@ -9,65 +9,80 @@ let info = {
     }
   },
   links: {
-    linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
-    github: "https://github.com/hrishikeshpaul",
-    angellist: "https://angel.co/u/hrishikesh-paul",
+    linkedin: "https://www.linkedin.com/in/gabriel-pironneau-7954b6171/",
+    github: "https://github.com/arkea-tech",
+    gitlab: "https://gitlab.com/arkea-tech",
+    angellist: "https://wellfound.com/u/gabriel-pironneau",
     resume:
       "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
   },
   skills: [
     {
       info: [
-        "Python",
         "Javascript",
         "TypeScript",
+        "WordPress",
         "Java",
+        "Kotlin",
+        "Python",
+        "PHP",
         "C",
         "C++",
-        "SQL",
-        "NoSQL",
-        "Ruby"
+        "Go",
+        "Dart",
+        "Swift",
+        "Ruby",
       ],
       icon: "fa fa-code"
     },
     {
-      info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
+      info: ["Vue", "React", "React Native", "Angular", "Node", "Express", "Elementor", "HTML", "CSS", "XML", "Flutter", "Spring Boot", "Flask"],
       icon: "fas fa-laptop-code"
     },
     {
       info: [
-        "Keras",
-        "Numpy",
-        "Pandas",
-        "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
-        "Pillow"
+        "Redux",
+        "Axios",
+        "Sequelize",
+        "Vite",
+        "Quasar",
+        "Material UI",
+        "amCharts",
+        "UIKit",
+        "GraphQL",
+        "JavaFX",
+        "SFML"
       ],
       icon: "fa fa-cubes"
     },
     {
-      info: ["MongoDB", "MySQL", "OracleSQL", "Neo4j"],
+      info: ["MongoDB", "MySQL", "PostgreSQL", "Firebase", "Elasticsearch"],
       icon: "fa fa-database"
     },
     {
       info: [
         "MacOS",
-        "Ubuntu",
-        "Windows",
+        "Linux",
         "Android",
+        "iOS",
+        "Fleet",
+        "IntelliJ IDEA",
+        "Xcode",
+        "Visual Studio",
         "Agile",
         "Scrum",
+        "Kanban",
         "JIRA",
+        "Slack",
+        "Docker",
+        "Git",
         "Heroku",
-        "Firebase",
-        "AWS S3"
+        "AWS"
       ],
       icon: "fas fa-tools"
     },
     {
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
+      info: ["Balsamiq Wireframes", "Sketch", "Figma", "Canva", "Adobe Illustrator", "Photoshop"],
       icon: "fa fa-pencil-square-o"
     }
   ]

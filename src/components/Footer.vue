@@ -6,9 +6,9 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
+          <span class="mr-3">{{ $t('footer.developed_with') }} <img id="vuejs-icon" :src="vuejs_image" /></span>
           <span>© 2023 Copyright: Gabriel Pironneau</span>
         </div>
-
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <div class="text-center">
             <button
@@ -22,6 +22,12 @@
               @click="open('github')"
             >
               <i class="fab fa-github"></i>
+            </button>
+             <button
+              class="btn btn-outline-secondary mx-2"
+              @click="open('gitlab')"
+            >
+              <i class="fab fa-gitlab"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
@@ -51,8 +57,10 @@ export default {
     return {
       linkedin: info.links.linkedin,
       github: info.links.github,
+      gitlab: info.links.gitlab,
       angellist: info.links.angellist,
       resume: info.links.resume,
+      vuejs_image: require("../assets/logo.png")
     };
   },
   methods: {
@@ -63,6 +71,9 @@ export default {
           break;
         case "github":
           window.open(this.github, "_blank");
+          break;
+        case "gitlab":
+          window.open(this.gitlab, "_blank");
           break;
         case "angellist":
           window.open(this.angellist, "_blank");
@@ -75,7 +86,6 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 span {
   font-weight: 500;
@@ -85,7 +95,10 @@ span {
   border-color: white;
   color: white;
 }
-
+#vuejs-icon{
+  width: 20px;
+  height: 20px
+}
 .btn:hover {
   background-color: white;
   border-color: white;

@@ -1,6 +1,9 @@
 {
+	"footer": {
+		"developed_with": "Developed with"
+	},
 	"introduction": {
-		"description": "Full Stack Developer in freelance and thriving for new challenges, I offer high quality services.\n<br><br>\nThrough my professional career and at Epitech (master's degree in information technology), I had the opportunity to work on projects concerning the creation of web applications, management tools, graph analysis platform and design of showcase sites.\n<br><br>\nDuring my free time, I enjoy working on various personal projects and I regularly stay up to date to various technological trends.\nI also love to travel, play the guitar and skate.",
+		"description": "I'm a Full Stack Developer in freelance, passionate about JavaScript and WordPress, I offer high quality services from fast responsive web sites to mobile applications.\n<br><br>\nMy work experiences include building web applications, showcase web sites, mobile management tools and analysis platforms.\n<br><br>\nDuring my free time, I enjoy working on various personal projects and reading tech news.\nI also love to travel, play the guitar and skateboard.",
 		"title": "Hello!"
 	},
 	"links": {
@@ -17,9 +20,12 @@
 				"university": {
 					"date": "Feb, 2018 - Oct, 2022",
 					"degree": "Master's degree of Digital Innovation, Computer Science",
-					"description": "Epitech offers training over 5 years and delivers the title of Expert in Information Technologies.\n\nIts pedagogy is the opposite of traditional teaching, where it works by projects.\nThe student is autonomous and gradually becomes self-taught. he is the master of his time and of his organization at school.\n\nProgramming is covered exclusively.\nThere is no theory and the student learns by doing on given topics and programming languages.",
+					"description": "Epitech delivers the title of Expert in Information Technologies over the course of 5 years.\n\nThe student is autonomous and gradually becomes self-taught.\n\nProgramming is covered exclusively with projects.",
 					"skills": {
 						"algorithms": "Algorithms",
+						"programming": "Programming",
+						"self_taught": "Self Taught",
+						"team_work": "Team Work",
 						"web_mobile_development": "Web & Mobile development"
 					}
 				}
@@ -27,34 +33,35 @@
 			"experiences": {
 				"afd_tech": {
 					"date": "Sep, 2021 - Feb, 2022",
-					"description": "Part-time internship in Full Stack Mobile Developement with React Native and Node.js (Express.js, Sequelize, PostgreSQL & MAMP).\n\nI built a mobile app planner & organizer tool (Android & iOS) to help the company handling different tasks, projects, files and clients at the same time.",
+					"description": "Part-time internship as a Full Stack Mobile Developer in React Native/Node.js.\n\nMobile app planner & organizer tool (Android & iOS).",
 					"position": "Fullstack Mobile Developer"
 				},
 				"beconbe": {
 					"date": "Apr, 2021 - June, 2021",
 					"deployment": "Deployment",
 					"description": "Freelance as a Web Developer in charge of creating the company's website showcase with Wordpress from scratch.",
-					"place": "South Korea Seoul Yongsan-gu Seoul",
+					"place": "Seoul, South Korea",
 					"position": "WordPress Developer"
 				},
 				"capgemini": {
-					"date": "Apr, 2022 - Feb, 2022",
-					"description": "Permanent position as a Fullstack Web Developer in React.js & Java.\n\nAs part of the Artemis program, the \"Ministry of Armed Forces\" needed a platform to analyse and manipulate graphs.\nThanks to that solution, it's possible to identify and find the root of various sources of informations.",
-					"position": "Fullstack Web Developer"
+					"date": "Apr, 2022 - Feb, 2023",
+					"description": "Permanent position as a Fullstack Web Developer in React.js/Java.\n\nThe goal of my mission was to build a platform to analyse and manipulate graphs in order to find the root of various sources of information.",
+					"position": "Fullstack Developer React.js/Java"
 				},
 				"cnrs": {
 					"date": "Jan, 2023 - Feb, 2023",
-					"description": "Resumption of the development of a web app that raise awareness of daily household consumption.\n\nThe web application help the user to better understand his daily energy consumption.\nHe can view his electricity consumption in detail, can enter his consumption manually and can access an histogram that compare data with another similar household.",
-					"position": "Fullstack Web Developer Vue.js/Node.js"
+					"description": "Part time freelance as a Fullstack Developer in Vue.js/Node.js.\nResumption of the development of a web app that raises awareness of daily household consumption.",
+					"position": "Fullstack Developer Vue.js/Node.js"
 				},
 				"radisson_blu": {
 					"date": "Nov, 2018 - Dec, 2018",
-					"description": "Intern as a Systems and Network Assistant Manager for the beginning of my 2nd year at Epitech.\nWhich brought me to set up and analyse a computer park, find solutions to IT users daily problems (IT support) and automate tasks using: GPO, Active Directory, Network Protocols (TCP, FTP, IPV4 and IPV6)",
+					"description": "Intern as a System and Network Assistant Manager.\nInfrastructure, IT Support, maintenance, automation of tasks.",
 					"position": "System & Network Assistant Manager"
 				},
+				"title": "experiences",
 				"wellup": {
 					"date": "Apr, 2023 - Apr, 2023",
-					"description": "Fixed a visual bug on the wellup.fr platform.\nThe site offers an online appointment booking solution with a therapist.",
+					"description": "Freelance as a WordPress Developer.\nFixed a visual bug and improve responsiveness on the wellup.fr platform.",
 					"position": "WordPress Developer"
 				}
 			},
@@ -62,13 +69,18 @@
 		},
 		"contact": {
 			"button_send": "send",
+			"messages": {
+				"fields_error": "Please fill all the fields.",
+				"message_error": "Oops! Something went wrong.",
+				"message_received": "Thanks! Message received."
+			},
 			"name": "name"
 		},
 		"portfolio": {
 			"beconbe": {
-				"category": "",
-				"date": "",
-				"description": ""
+				"category": " Showcase Site",
+				"date": "Apr, 2021 - June, 2021",
+				"description": "Creation of the website showcase with WordPress from scratch.\n<br>\nMock-ups, Pages, navigation and UI/UX adaptive & responsive design."
 			},
 			"button_close": "close",
 			"button_read_more": "read more",
@@ -76,32 +88,36 @@
 			"button_visit_website": "visit website",
 			"personal_dashboard": {
 				"category": "Web App",
-				"date": "Mars, 2020 - Jan, 2021",
-				"description": "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition"
+				"date": "March, 2020 - Jan, 2021",
+				"description": "Dashboard Web Application inspired from Net Vibes, offering services and customizable widgets.\n<br>\nThe web application provides useful information from various external sources.\n<br><br>\nBy subscribing to these services, the user can then compose his/her dashboard by inserting preconfigured widget instances.\n<br><br>\nAlso, it's possible to edit, delete and move widgets on the dashboard."
 			},
 			"smart_meter": {
-				"category": "",
-				"date": "",
-				"description": ""
+				"category": "Web App",
+				"date": "Jan, 2023 - Feb, 2023",
+				"description": "Web Application that raises awareness of daily household consumption.\n<br>\nThe web application offers the user with 3 modules to better understand his daily energy consumption.\n<br><br>\nHe can visualize in detail his electricity consumption which is linked to his smart meter, can enter his consumption manually and access a histogram that compare his data with other similar households."
 			},
 			"wellup": {
-				"category": "",
-				"date": "",
-				"description": ""
+				"category": "Website",
+				"date": "Apr, 2023 - Apr, 2023",
+				"description": "Website offering an online appointment booking solution with a therapist.\n<br><br>\nIt is possible to search for any type of therapist, view pricing and schedule an appointment."
 			}
 		},
 		"recommendations": {
 			"capgemini": {
-				"title": "As technical manager, I was able to work with Gabriel as part of his mission at Capgemini. He is a good developer, serious and punctual. His technical level, his investment and his speed of integration into a complex project and his knowledge of best practices (clean code, documentation) were greatly appreciated."
+				"position": "Technical Director",
+				"title": "As his technical director, I had the pleasure to collaborate with Gabriel during his mission carried out at Capgemini. He is a great developer, serious and punctual. His technical level, his investment, his speed of integration into a complex project and his knowledge of best practices (clean code, documentation) were highly appreciated."
 			},
 			"cnrs": {
+				"position": "Researcher",
 				"title": "Our experience with Gabriel was very satisfying. He took ownership of the project very well while remaining attentive and responding to our needs on time. Looking forward to working with him again."
 			},
 			"epitech": {
-				"title": "Gabriel is a brilliant person who gives 100% of himself to succeed in his projects. He is an exceptional developer who masters what he does."
+				"position": "Full Stack Developer",
+				"title": "Gabriel is a brilliant person who gives 100% of himself to succeed in his projects. He is an exceptional developer who master what he does."
 			},
 			"title": "recommendations",
 			"wellup": {
+				"position": "CEO",
 				"title": "Mission carried out efficiently"
 			}
 		},

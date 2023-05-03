@@ -60,11 +60,19 @@ export default {
             place: "Paris, France",
             date: this.$t('sections.about.education.university.date'),
             degree: this.$t('sections.about.education.university.degree'),
-            gpa: "2.9/4.0",
+            gpa: "2.8/4.0",
             description: this.$t('sections.about.education.university.description'),
             skills: [
+              this.$t('sections.about.education.university.skills.programming'),
               this.$t('sections.about.education.university.skills.algorithms'),
               this.$t('sections.about.education.university.skills.web_mobile_development'),
+              this.$t('sections.about.education.university.skills.self_taught'),
+              this.$t('sections.about.education.university.skills.team_work'),
+              "C",
+              "C++",
+              "JavaScript",
+              "Python",
+              "Linux"
             ]
           }
         ],
@@ -72,7 +80,7 @@ export default {
     },
     experience() {
       return {
-        title: "experiences",
+        title: this.$t('sections.about.experiences.title'),
         data: [
           {
             name: "Well'up",
@@ -88,7 +96,7 @@ export default {
             date: this.$t('sections.about.experiences.cnrs.date'),
             position: this.$t('sections.about.experiences.cnrs.position'),
             description: this.$t('sections.about.experiences.cnrs.description'),
-            skills: ["Vue.js", "Typescript", "Node.js", "Express.js", "PostgreSQL", "Sequelize", "amCharts", "Quasar", "Vite", "Axios"]
+            skills: ["Vue.js", "Typescript", "Node.js", "Express.js", "PostgreSQL", "Sequelize", "amCharts", "Quasar", "Vite", "Axios", "HTML/CSS"]
           },
           {
             name: "Capgemini Technology Services - France",
@@ -98,7 +106,7 @@ export default {
             description: this.$t('sections.about.experiences.capgemini.description'),
             skills: ["React.js", "Typescript", "Redux", "Material UI", "Java",
                      "Spring Boot", "GraphQL", "DQL", "Ratel",
-                     "OpenSearch", "Git", "Gitlab", "Gitlab CI/CD", "Docker", "Kubernetes", "AWS"]
+                     "OpenSearch", "Git", "Gitlab", "Gitlab CI/CD", "Docker", "Kubernetes", "AWS", "HTML/CSS"]
           },
           {
             name: "AFD Tech",
@@ -114,7 +122,7 @@ export default {
             date: this.$t('sections.about.experiences.beconbe.date'),
             position: this.$t('sections.about.experiences.beconbe.position'),
             description: this.$t('sections.about.experiences.beconbe.description'),
-            skills: ["Wordpress", "Webdesign", "User Interface Design", "User Experience Design", "Testing", this.$t('sections.about.experiences.beconbe.deployment')]
+            skills: ["Wordpress", "Webdesign", "UI", "UX", "Testing", this.$t('sections.about.experiences.beconbe.deployment')]
           },
           {
             name: "Radisson Blu",

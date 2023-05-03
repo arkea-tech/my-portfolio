@@ -148,7 +148,7 @@ export default {
     sendEmail() {
       if (!this.email || !this.name || !this.text) {
         this.showSnackbar = true;
-        this.snackbarMessage = "Please all the fields";
+        this.snackbarMessage = this.$t('sections.contact.messages.fields_error');
         this.snackbarColor = "rgb(212, 149, 97)";
       } else {
         var obj = {
@@ -168,7 +168,7 @@ export default {
           .then(
             (result) => {
               this.showSnackbar = true;
-              this.snackbarMessage = "Thanks! Message recieved.";
+              this.snackbarMessage = this.$t('sections.contact.messages.message_received');
               this.snackbarColor = "#1aa260";
 
               this.email = "";
@@ -177,7 +177,7 @@ export default {
             },
             (error) => {
               this.showSnackbar = true;
-              this.snackbarMessage = "Oops! Something went wrong.";
+              this.snackbarMessage = this.$t('sections.contact.messages.message_error');
               this.snackbarColor = "rgb(212, 149, 97)";
             }
           );

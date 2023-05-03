@@ -1,6 +1,9 @@
 {
+	"footer": {
+		"developed_with": "Développé en"
+	},
 	"introduction": {
-		"description": "Développeur Full Stack en freelance, je propose un service de qualité tout en répondant à des problématiques variées.\n<br><br>\nÀ travers mon parcours professionnel et à Epitech (diplômé master en technologies de l'information), j'ai eu l'opportunité de travailler sur des projets de création d'applications web, d'outils de gestion, plateforme d'analyse de graphe et conception de sites vitrines.\n<br><br>\nLors de mon temps libre, je prends plaisir à travailler sur divers projets personnel et je m'informe régulièrement des dernières tendances technologiques.\nMais sans pour autant être un geek, j'adore aussi voyager, jouer de la guitare et faire du skateboard.\n\n",
+		"description": "Développeur Full Stack en freelance, passionné de Javascript et Wordpress, j'accompagne mes clients dans la réalisation d'applications web et mobile en proposant un service de qualité.\n<br><br>\nJ'ai eu l'opportunité d'intervenir sur des missions de création d'applications web, conception de sites vitrines, outils de gestion mobile et plateformes d'analyse de données.\n<br><br>\nPendant mon temps libre, je contribue à divers projets personnels et je reste à jour sur les dernières tendances tech.\n<br>\nJ'adore aussi voyager, jouer de la guitare et faire du skateboard.\n\n",
 		"title": "Bonjour!"
 	},
 	"links": {
@@ -17,9 +20,12 @@
 				"university": {
 					"date": "Février 2018 - Octobre 2022",
 					"degree": "Master Bac+5, Expert en Technologies de l'Information",
-					"description": "Epitech propose une formation en 5 ans et délivre le titre d'Expert en Technologies de l'Information.\n\nSa pédagogie est à l'opposé de l'enseignement traditionnel, où elle fonctionne par projets.\nL'étudiant est autonome et devient progressivement autodidacte. il est maître de son temps et de son organisation à l'école.\n\nLa programmation est abordée exclusivement.\nIl n'y a aucune théorie et l'élève apprend en pratiquant sur des sujets donnés et des langages de programmation.",
+					"description": "Epitech propose une formation en 5 ans et délivre le titre d'Expert en Technologies de l'Information.\n\nSa pédagogie fonctionne par projets.\nL'étudiant est autonome et devient progressivement autodidacte.\n\nLa programmation est abordée exclusivement.",
 					"skills": {
 						"algorithms": "Algorithmes",
+						"programming": "Programmation",
+						"self_taught": "Autodidacte",
+						"team_work": "Travail En Équipe",
 						"web_mobile_development": "Développement Web & Mobile"
 					}
 				}
@@ -27,34 +33,35 @@
 			"experiences": {
 				"afd_tech": {
 					"date": "Septembre 2021 - Février 2022",
-					"description": "Stage à temps partiel 3j/semaine dans le cadre de ma scolarité à Epitech pour un client interne rattaché à l'équipe marketing.\n\nDéveloppement d'une application mobile de planification et organisation de processus pour aider l'entreprise à gérer différents projets, fichiers, actualités et clients en même temps.",
+					"description": "Stage à temps partiel en tant que Développeur Mobile Full Stack React Native/Node.js.\n\nDéveloppement d'une application mobile de planification et organisation de processus (Android & iOS).",
 					"position": "Développeur Fullstack Mobile"
 				},
 				"beconbe": {
 					"date": "Avril 2021 - Juin 2021",
 					"deployment": "Déploiement",
-					"description": "Freelance en tant que Développeur Web. Création d'un site vitrine from scratch via Wordpress pour l'entreprise \"BECONBE\" en Corée du Sud.",
-					"place": "Corée du Sud Séoul Yongsan-gu Séoul",
+					"description": "Freelance en tant que Développeur Web.\nCréation d'un site vitrine from scratch via Wordpress pour l'entreprise \"BECONBE\" en Corée du Sud.",
+					"place": "Séoul, Corée du Sud",
 					"position": "Développeur WordPress"
 				},
 				"capgemini": {
-					"date": "Avril 2022 - Février 2022",
-					"description": "En lien avec le programme Artemis, l'objectif de ma mission était de développer une plateforme web d'analyse et d'étude de graphes pour le Ministère des Armées.\n\nCette solution permet d'identifier et de retrouver différentes sources d'informations de manière optimisé.",
-					"position": "Développeur Fullstack Web"
+					"date": "Avril 2022 - Février 2023",
+					"description": "CDI en tant que Développeur Fullstack React.js/Java.\n\nL'objectif de ma mission était de développer une plateforme web d'analyse de graphe pour identifier et retrouver différentes sources d'information de manière optimisée.",
+					"position": "Développeur Fullstack React.js/Java"
 				},
 				"cnrs": {
-					"date": "Janvier 2023 - février 2023",
-					"description": "Reprise du développement d'une application web de sensibilisation à la consommation d'énergie.\n\nL'application web propose à l'utilisateur via 3 modules de mieux comprendre sa consommation d'énergie au quotidien.\nIl peut visualiser en détail ses consommations électriques, a la possibilité d'entrer ses consommations et peut accéder à un histogramme de comparaison des données avec un autre ménage similaire.",
+					"date": "Janvier 2023 - Février 2023",
+					"description": "Freelance à temps partiel en tant que Développeur Fullstack Vue.js/Node.js.\nReprise du développement d'une application web de sensibilisation à la consommation d'énergie.",
 					"position": "Développeur Fullstack Vue.js/Nodes.js"
 				},
 				"radisson_blu": {
 					"date": "Novembre 2018 - Décembre 2018",
-					"description": "Stagiaire en tant qu'Assistant Administrateur Systèmes et Réseaux pour le début de ma 2ème année à Epitech.\nMise en place et analyse d'un parc informatique, support IT et automatisation des tâches via des outils : GPO, Active Directory, Protocoles Réseau (TCP, FTP, IPV4 et IPV6)",
+					"description": "Stagiaire en tant qu'Assistant Administrateur Systèmes et Réseaux.\nParc informatique, support IT, maintenance, automatisation des tâches.",
 					"position": "Assistant Administrateur Système & Réseau"
 				},
+				"title": "expériences",
 				"wellup": {
 					"date": "Avril 2023 - Avril 2023",
-					"description": "Correction d'un bug visuelle sur plateforme wellup.fr.\nLe site propose une solution de prise de rendez-vous en ligne avec un thérapeute.",
+					"description": "Freelance en tant que Développeur WordPress.\nCorrection d'un bug visuelle et amélioration du responsive design sur la plateforme wellup.fr.",
 					"position": "Développeur WordPress"
 				}
 			},
@@ -62,13 +69,18 @@
 		},
 		"contact": {
 			"button_send": "envoyer",
+			"messages": {
+				"fields_error": "Veuillez remplir tous les champs.",
+				"message_error": "Oops! Il y a eu un problème.",
+				"message_received": "Merci! Le message a été reçu."
+			},
 			"name": "nom"
 		},
 		"portfolio": {
 			"beconbe": {
-				"category": "",
-				"date": "",
-				"description": ""
+				"category": " Site Vitrine",
+				"date": "Avril 2021 - Juin 2021",
+				"description": "Création d'un site vitrine from scratch via WordPress.\n<br>\nMock-ups, pages, navigation et UI/UX adaptive et responsive."
 			},
 			"button_close": "fermer",
 			"button_read_more": "lire plus",
@@ -77,36 +89,40 @@
 			"personal_dashboard": {
 				"category": "Application Web",
 				"date": "Mars 2020 - Janvier 2021",
-				"description": "Music Sheet Recognizer (MSR) met en évidence le traitement et la reconnaissance d'image de base. Comme la reconnaissance optique de caractères"
+				"description": "Application Web Dashboard inspirée de Net Vibes, proposant des services et des widgets personnalisables.\n<br>\nL'application web fournit des informations utiles provenant de diverses sources externes.\n<br><br>\nEn s'abonnant à ces services, l'utilisateur peut composer son tableau de bord en insérant des instances de widgets préconfigurés.\n<br><br>\nAussi, il est possible de modifier, supprimer et déplacer des widgets sur le tableau de bord."
 			},
 			"smart_meter": {
-				"category": "",
-				"date": "",
-				"description": ""
+				"category": "Application Web",
+				"date": "Janvier 2023 - Février 2023",
+				"description": "Application web de sensibilisation à la consommation d'énergie.\n<br>\nL'application web propose à l'utilisateur via 3 modules de mieux comprendre sa consommation d'énergie au quotidien.\n<br><br>\nIl peut visualiser en détail ses consommations électriques reliées à son compteur intelligent, a la possibilité d'entrer ses consommations manuellement et peut accéder à un histogramme de comparaison de ses données avec un autre ménage similaire."
 			},
 			"wellup": {
-				"category": "",
-				"date": "",
-				"description": ""
+				"category": "Site Internet",
+				"date": "Avril 2023 - Avril 2023",
+				"description": "Site Web proposant une solution de prise de rendez-vous en ligne avec un thérapeute.\n<br><br>\nIl est possible de rechercher tout type de thérapeute, consulter les tarifications et planifier un rendez-vous."
 			}
 		},
 		"recommendations": {
 			"capgemini": {
+				"position": "Directeur technique",
 				"title": "En tant que responsable technique, j'ai pu travailler avec Gabriel dans le cadre de sa mission chez Capgemini. C'est un bon développeur, sérieux et ponctuel. Son niveau technique, son investissement et sa rapidité d'intégration à un projet complexe et sa connaissance des bonnes pratiques (clean code, documentation) ont été très appréciés."
 			},
 			"cnrs": {
+				"position": "Chercheur",
 				"title": "Notre expérience avec Gabriel a été très satisfaisante. Il s'est très bien approprié le projet tout en restant à l'écoute et en répondant à nos besoins dans les temps. Au plaisir de pouvoir collaborer à nouveau avec lui."
 			},
 			"epitech": {
+				"position": "Développeur Full Stack",
 				"title": "Gabriel est une personne sérieuse qui se donne à 100% pour réussir ses projets. C'est un développeur d'exception qui maîtrise ce qu'il fait."
 			},
 			"title": "recommandations",
 			"wellup": {
+				"position": "PDG",
 				"title": "Mission réalisée efficacement"
 			}
 		},
 		"skills": {
-			"databases": "Bases de données",
+			"databases": "bases de données",
 			"languages": "langages",
 			"librairies": "bibliothèques",
 			"operating_systems_and_tools": "systèmes d'exploitation et outils",

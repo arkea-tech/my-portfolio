@@ -39,6 +39,13 @@
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
+              @click="open('gitlab')"
+              v-tooltip.bottom="'GitLab'"
+            >
+              <i class="fab fa-gitlab"></i>
+            </button>
+            <button
+              class="btn btn-outline-secondary mx-2"
               @click="open('angellist')"
               v-tooltip.bottom="'AngelList'"
             >
@@ -84,6 +91,7 @@ export default {
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
+      gitlab: info.links.gitlab,
       angellist: info.links.angellist,
       resume: info.links.resume
     };
@@ -96,6 +104,9 @@ export default {
           break;
         case "github":
           window.open(this.github, "_blank");
+          break;
+        case "gitlab":
+          window.open(this.gitlab, "_blank");
           break;
         case "angellist":
           window.open(this.angellist, "_blank");

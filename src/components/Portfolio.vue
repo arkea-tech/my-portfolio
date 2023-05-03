@@ -97,117 +97,60 @@ export default {
     all_info() {
       return  [
         {
+          name: "Smart Meter",
+          videoID: '818427347',
+          pictures: [
+            {
+              img: require("../assets/portfolio/smi.png")
+            }
+          ],
+          technologies: ["Vue.js", "Typescript", "Node.js", "Express.js", "PostgreSQL", "Sequelize", "amCharts", "Quasar", "Vite", "Axios", "HTML/CSS"],
+          category: this.$t('sections.portfolio.smart_meter.category'),
+          date: this.$t('sections.portfolio.smart_meter.date'),
+          description: this.$t('sections.portfolio.smart_meter.description'),
+          gitlab: "https://gitlab.com/cnrs-smi/front/-/tree/develop?ref_type=heads"
+        },
+        {
           name: "Personal Dashboard",
           videoID: '773098729',
           pictures: [
             {
-              img: require("../assets/portfolio/msr/one.png")
+              img: require("../assets/portfolio/personal_dashboard.png")
             }
           ],
-          technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
+          technologies: ["MongoDB", "Express", "Angular", "Node", "OAuth2", "REST API"],
           category: this.$t('sections.portfolio.personal_dashboard.category'),
           date: this.$t('sections.portfolio.personal_dashboard.date'),
-          github:
-        "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
+          github: "https://github.com/gabriel-pironneau/Personal_Dashboard",
           description: this.$t('sections.portfolio.personal_dashboard.description')
         },
         {
-          name: "NoQ Job Portal",
-          videoID: '773087172',
+          name: "BECONBE",
+          videoID: '823293979',
           pictures: [
             {
-              img: require("../assets/portfolio/noq/logo.png")
-            },
-            {
-              img: require("../assets/portfolio/noq/one.png")
-            },
-            {
-              img: require("../assets/portfolio/noq/two.png")
-            },
-            {
-              img: require("../assets/portfolio/noq/three.png")
-            },
-            {
-              img: require("../assets/portfolio/noq/four.png")
+              img: require("../assets/portfolio/beconbe.png")
             }
           ],
-          technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
-          category: "Website",
-          date: "Sep, 2019 - Dec  , 2019",
-          github: "https://github.com/hrishikeshpaul/noq",
-          visit: "https://noq-client.herokuapp.com/",
-          description:
-        "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
+          technologies: ["Wordpress", "Webdesign", "UI", "UX", "Testing", this.$t('sections.about.experiences.beconbe.deployment')],
+          category: this.$t('sections.portfolio.beconbe.category'),
+          date: this.$t('sections.portfolio.beconbe.date'),
+          visit: "https://beconbe.wordpress.com",
+          description: this.$t('sections.portfolio.beconbe.description')
         },
         {
-          name: "POST",
-          videoID: '818427347',
+          name: "Well'up",
+          videoID: '821603674',
           pictures: [
             {
-              img: require("../assets/portfolio/post/one.png")
-            },
-            {
-              img: require("../assets/portfolio/post/two.png")
+              img: require("../assets/portfolio/wellup.png")
             }
           ],
-          technologies: [
-            "Markov Models",
-            "Python",
-            "Artificial Intelligence",
-            "Vue",
-            "Heroku"
-          ],
-          category: "Algorithm",
-          github: "https://github.com/hrishikeshpaul/pos-tagger",
-          date: "Oct, 2019 - Nov, 2019",
-          visit: "https://post-client.herokuapp.com/",
-          description:
-        "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
-        },
-        {
-          name: "Sentiment Analyzer",
-          pictures: [
-            {
-              img: require("../assets/portfolio/smit/one.png")
-            },
-            {
-              img: require("../assets/portfolio/smit/two.png")
-            },
-            {
-              img: require("../assets/portfolio/smit/three.png")
-            },
-            {
-              img: require("../assets/portfolio/smit/four.png")
-            }
-          ],
-          technologies: ["LSTM", "Keras", "Angular", "Tweepy", "Heroku", "Python"],
-          category: "Alogrithm",
-          date: "Feb, 2018 - Apr  , 2018",
-          github: "https://github.com/hrishikeshpaul/sih",
-          visit: "https://angel.co/projects/1009777-sentiment-analysis",
-          description:
-        "Developing this for the final round of Smart India Hackathon 2018, the web application is a platform for showcasing the sentiment of the tweets of the people in the Telangana region in India on policy satisfaction, services and problem definitions. The minimal UI design consists of different bins, that have their respective tweets, all scraped from twitter. There is also a simple graphical representation denoting the sentiment of the tweets."
-        },
-        {
-          name: "Clumpr",
-          pictures: [
-            {
-              img: require("../assets/portfolio/clumpr/logo.png")
-            },
-            {
-              img: require("../assets/portfolio/clumpr/one.png")
-            },
-            {
-              img: require("../assets/portfolio/clumpr/two.png")
-            }
-          ],
-          technologies: ["Node", "Angular", "Express", "MySQL", "Facebook API"],
-          category: "Web App",
-          github: "https://github.com/hrishikeshpaul/clumpr",
-          date: "Sep, 2017 - Nov, 2017",
-          visit: "https://github.com/hrishikeshpaul/clumpr",
-          description:
-        'Clumpr is an online social event planning assistant that - using information about similar events happening in similar locations around the same time, friends who frequently attend the same events, and mutual friends - helps users to collaborate, combine, and attend events together, effectively "clumping" people and activities in a way that makes intuitive sense.'
+          technologies: ["Wordpress", "PHP", "FileZilla", "Elementor"],
+          category: this.$t('sections.portfolio.wellup.category'),
+          date: this.$t('sections.portfolio.wellup.date'),
+          visit: "https://www.wellup.fr",
+          description: this.$t('sections.portfolio.wellup.description')
         },
       ]
     }
