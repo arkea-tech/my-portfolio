@@ -13,8 +13,8 @@ let info = {
     github: "https://github.com/arkea-tech",
     gitlab: "https://gitlab.com/arkea-tech",
     angellist: "https://wellfound.com/u/gabriel-pironneau",
-    resume:
-      "https://github.com/arkea-tech/my-portfolio/tree/master/src/assets/pdfs/Resume (English).pdf"
+    resume: "https://github.com/arkea-tech/my-portfolio/tree/master/src/assets/pdfs/Resume.pdf",
+    cv: "https://github.com/arkea-tech/my-portfolio/tree/master/src/assets/pdfs/CV.pdf"
   },
   skills: [
     {

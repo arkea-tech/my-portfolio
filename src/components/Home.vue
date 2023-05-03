@@ -53,7 +53,7 @@
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
+              @click="$i18n.locale === 'en' ? open('resume') : open('cv')"
               v-tooltip.bottom="this.$t('links.resume')"
             >
               <i class="fa fa-file"></i>
@@ -93,7 +93,8 @@ export default {
       github: info.links.github,
       gitlab: info.links.gitlab,
       angellist: info.links.angellist,
-      resume: info.links.resume
+      resume: info.links.resume,
+      cv: info.links.cv
     };
   },
   methods: {
@@ -113,6 +114,9 @@ export default {
           break;
         case "resume":
           window.open(this.resume, "_blank");
+          break;
+        case "cv":
+          window.open(this.cv, "_blank");
           break;
       }
     },
