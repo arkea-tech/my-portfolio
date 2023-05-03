@@ -3,6 +3,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 587a870 ([ADD] dynamic switch between resumes)
     "name": "my-portfolio",
     "version": "1.0.9",
     "description": "Portfolio showcasing my experiences and skills",
@@ -11,6 +14,7 @@
     "scripts": {
         "postinstall": "npm install express"
     }
+<<<<<<< HEAD
 =======
   "name": "portfolio",
 =======
@@ -113,6 +117,8 @@
   },
   "keywords": [],
   "description": ""
+=======
+>>>>>>> 587a870 ([ADD] dynamic switch between resumes)
 }
 <<<<<<< HEAD
 >>>>>>> bb50ba6 (sandbox commit changes)
