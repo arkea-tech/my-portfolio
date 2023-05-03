@@ -1,7 +1,7 @@
 {
     "name": "my-portfolio",
-    "version": "1.0.8",
-    "description": "Up to date portfolio showcasing my experiences and skills",
+    "version": "1.0.9",
+    "description": "Portfolio showcasing my experiences and skills",
     "author": "Gabriel Pironneau",
     "private": true,
     "scripts": {
