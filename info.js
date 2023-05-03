@@ -14,7 +14,7 @@ let info = {
     gitlab: "https://gitlab.com/arkea-tech",
     angellist: "https://wellfound.com/u/gabriel-pironneau",
     resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+      "https://github.com/arkea-tech/my-portfolio/tree/master/src/assets/pdfs/Resume.pdf"
   },
   skills: [
     {
