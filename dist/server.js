@@ -6,3 +6,4 @@ app.use(serveStatic(__dirname));
 var port = process.env.PORT || 5050;
 app.listen(port);
 console.log('server started '+ port);
+//lol
