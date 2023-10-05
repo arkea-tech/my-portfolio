@@ -40,4 +40,5 @@ new Vue({
   render: h => h(App),
 }).$mount('#app')
 
-if (window.location.protocol !== 'https:') window.location.href = 'https://www.gabrielpironneau.com'
+/*
+if (window.location.protocol !== 'https:') window.location.href = 'https://www.gabrielpironneau.com'*/
