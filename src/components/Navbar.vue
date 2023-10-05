@@ -38,7 +38,7 @@
                 href="/about"
                 @click.prevent="$emit('scroll', 'about')"
                 :class="{ 'text-light': nightMode }"
-                >about</a
+                >{{ $t("tab.about") }}</a
               >
             </li>
             <li class="nav-item mx-2">
