@@ -60,7 +60,7 @@ export default {
             place: "Paris, France",
             date: this.$t('sections.about.education.university.date'),
             degree: this.$t('sections.about.education.university.degree'),
-            gpa: "2.8/4.0",
+           /* gpa: "3.0/4.0",*/
             description: this.$t('sections.about.education.university.description'),
             skills: [
               this.$t('sections.about.education.university.skills.programming'),
