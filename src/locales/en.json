@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"footer": {
 		"developed_with": "Developed with"
 	},
@@ -136,9 +135,3 @@
 		"skills": "skills"
 	}
 }
-=======
-  "tab": {
-    "about": "Hello World!"
-  }
-}
->>>>>>> ffa6806 ([ADD] Language translation in progress)

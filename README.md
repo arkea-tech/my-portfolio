@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Portfolio Template 🖐
 
 > This is a simple, minimal and responsive personal website template, built using vue-js, html and css.
@@ -159,29 +158,3 @@ Reach out to me at one of the following places!
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2020 © <a href="https://hrishikeshpaul.github.io/" target="_blank">Hrishikesh Paul</a>
-=======
-# portfolio
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> c05d789 (init)
